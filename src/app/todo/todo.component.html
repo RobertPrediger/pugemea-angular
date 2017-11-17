@@ -1,0 +1,11 @@
+<div clas="row">
+    <h1 class="col">ToDo</h1>
+</div>
+
+<div class="row">
+    <div class="col">
+        <ul class="list-group">
+            <todo-item *ngFor="let item of todo" [item]="item"></todo-item>
+        </ul>
+    </div>
+</div>

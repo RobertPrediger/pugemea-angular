@@ -1,0 +1,15 @@
+<form>
+    <div class="form-group">
+        <label for="formEmail">Email address</label>
+        <input type="email" class="form-control" id="formEmail" aria-describedby="emailHelp" placeholder="Enter email" [(ngModel)]="item.email" name="email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+        <label for="formName">Name</label>
+        <input type="text" class="form-control" id="formName" placeholder="Name" [(ngModel)]="item.name" name="name">
+    </div>
+    <div class="form-group">
+        <label for="formPhone">Phone number</label>
+        <input type="phone" class="form-control" id="formPhone" placeholder="Phone number" [(ngModel)]="item.phone" name="phone">
+    </div>
+</form>

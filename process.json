@@ -1,0 +1,11 @@
+{
+    "name":		"pug-emea",
+    "script":		"/usr/local/bin/ng",
+    "args":		"serve --port 4201 --proxy-config proxy.config.js --public http://pug-emea.local",
+    "watch":		[ "proxy.config.js" ],
+    "cwd":		"/Users/robertprediger/Documents/dev/pug-emea",
+    "env":		{
+        "NODE_ENV":		"development"
+    },
+    "exec_mode":	"fork"
+}

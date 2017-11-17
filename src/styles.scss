@@ -1,0 +1,93 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "./_variables.scss";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 1024px;
+    }
+}
+
+.list-title {
+    padding-top: 10px;
+    font-size: 20px;
+    color: #FF6600;
+}
+
+.list-container {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.list-element {
+    height: 120px;
+    width: 130px;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+.tile-icon {
+    padding-top: 30px;
+}
+
+.tile-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tile-desc {
+    width: 130px;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+}
+
+a {
+    cursor: pointer;
+}
+
+.align-center {
+    text-align: center;
+}
+.align-right {
+    text-align: right;
+}
+
+.grey{
+    background-color: #E7E7E7;
+}
+
+.statusgrey{
+    background-color: grey;
+}
+.statusred{
+    background-color: #F0ABBA !important;
+    border-color: #D1002D !important;
+}
+.statusgreen{
+    background-color: #00CC00 !important;
+    border-color: #91BC12 !important;
+}
+.statusyellow{
+    background-color: #FFF9AB !important;
+    border-color: #FFEC00 !important;
+}
+
+.statuslightgrey{
+    background-color: grey;
+}
+.statuslightred{
+    background-color: #F6CAD4 !important;
+    border-color: #F0ABBA !important;
+}
+.statuslightgreen{
+    background-color: #E9F1D2 !important;
+    border-color: #DBE9B1 !important;
+}
+.statuslightyellow{
+    background-color: #FFF9AB !important;
+    border-color: #FFEC00 !important;
+}

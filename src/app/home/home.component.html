@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-8">
+        <div class="row">
+            <div class="col">
+                {{ today }}
+            </div>
+        </div>
+
+        <nav class="nav flex-column" *ngFor="let n of nav">
+          <button class="nav-link btn" [ngClass]="n.key == actKey ? 'btn-secondary' : 'btn-light'" (click)="doNav( n.key )">{{ n.desc }}</button>
+        </nav>
+    </div>
+
+    <div class="col-40">
+        <router-outlet></router-outlet>
+    </div>
+</div>

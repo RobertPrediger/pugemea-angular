@@ -1,0 +1,19 @@
+<div clas="row">
+    <h1 class="col">Items</h1>
+</div>
+
+<div class="row">
+    <div class="col-24">
+        <ul class="list-group">
+            <li class="list-group-item" *ngFor="let item of items" (click)="itemDetail.select( item )">
+                <div class="d-flex w-100 justify-content-between">
+                    {{ item.name }}
+                    <span>{{ item.email }}</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="col-24">
+        <item-detail #itemDetail></item-detail>
+    </div>
+</div>

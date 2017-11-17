@@ -1,0 +1,4 @@
+<li class="list-group-item" [ngClass]="item.done ? 'done' : ''">
+    <i class="fa" [ngClass]=" { 'fa-check-square-o': item.done, 'fa-square-o': !item.done }" (click)="done()" aria-hidden="true"></i>
+    {{ item.text }}
+</li>
